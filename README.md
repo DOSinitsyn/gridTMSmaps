@@ -4,7 +4,7 @@ How to run:
 
 1. Map coverage analysis
 
-The first calculation concerns estimating the fractions of 121 muscle representations (mapped without grid) that would be covered by square grids of different sizes. The relevant data and scripts are in the folder 'Map coverage'. The file 'mappings.csv' contains the non-grid mapping results, each line containing the map id, the coordinates x, y, z of the electric field maximum (at the peeling depth of 20 mm), and the MEP amplitude. The file 'desc.xlsx' contains information about subject id, handedness, studied hand, muscle and date of study. The scripts were tested under MATLAB R2017a. The script 'calculate_diameter.m' must be run to produce the file 'fractions.xlsx' containing the results, which will be used by the Python scripts in the parent folder for statistical analysis and visualization.
+The first calculation concerns estimating the fractions of 121 muscle representations (mapped without grid) that would be covered by square grids of different sizes. The relevant data and scripts are in the folder 'Map coverage'. The file 'mappings.csv' contains the non-grid mapping results, each line containing the map id, coordinates x, y, z of the electric field maximum (in mm, at the peeling depth of 20 mm), and the MEP amplitude (in uV). The file 'desc.xlsx' contains information about subject id, handedness, studied hand, muscle and date of study. The scripts were tested under MATLAB R2017a. The script 'calculate_diameter.m' must be run to produce the file 'fractions.xlsx' containing the results, which will be used by the Python scripts in the parent folder for statistical analysis and visualization.
 
 2. Analysis of grid-based TMS maps
 
